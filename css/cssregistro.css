@@ -1,0 +1,54 @@
+.estilo_title {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: xx-large;
+	color: #161925;
+	position: absolute;
+	top: 50px;
+	left: 675px;
+}
+
+table {
+	width: 500px;
+	height: 450px;
+	background-color: #161925;
+	position: absolute;
+	top: 165px;
+	left: 550px;
+	font-family: 'Quicksand';
+	font-size: large;
+	color: #FDFFFC;
+}
+
+.field {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 250px;
+	background-color: #D0CDD7;
+	border: solid 1px;
+	border-radius: 5px;
+	border-color: #FDFFFC;
+	font-family: 'Quicksand';
+	font-size: medium;
+}
+
+.button_concluir {
+	background-color: #7FEFBD;
+	color: #161925;
+	width: 100px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	position: absolute;
+	top: 375px;
+	left: 1125px;
+	font-family: 'Quicksand';
+	font-size: medium;
+}
+
+.button_concluir:hover {
+	background-color: #63A375;
+}

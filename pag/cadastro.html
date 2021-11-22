@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="../js/jscadastro.js"> </script>
+		<link rel="stylesheet" type="text/css" href="../css/cssallpages.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="../css/csscadastro.css" media="screen"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+		<link rel="icon" href="../img/favicon01.png"/>
+		<title> Cadastro </title>
+	</head>
+
+	<body>
+		<div class="menu">
+			<a href="../index.html"> Home - Smart Plantation </a>
+			<a href="login.html"> Login </a>
+			<a href="contato.html"> Contato </a>
+			<a href="#" class="active"> Cadastro </a>
+			<a href="registro-sensor.html"> Registro de Sensor </a>
+			<a href="edite-sensores.html"> Verificar Sensores </a>
+			<a href="perguntas-frequentes.html"> Perguntas Frequentes </a>
+		</div>
+
+		<p class="estilo_title"> Cadastro </p>
+
+		<div class="rectangle_middle"> </div>
+		<img class="icon01_middle" src="../img/icon01.png">
+		<img class="icon02_middle" src="../img/icon02.png">
+
+		<table cellpadding="10" class="table">
+			<tr>
+				<td width="40%"> Nome completo </td>
+				<td> <img src="../img/icon05.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <form name="pessoa"> <input class="field" type="text" placeholder="Nome completo" id="nome"> </form> </td>
+			</tr>
+			<tr>
+				<td> E-mail </td>
+				<td> <img src="../img/icon03.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <form name="confirmaemail"> <input class="field" type="text" placeholder="E-mail" id="email"> </form> </td>
+			</tr>
+			<tr>
+				<td> Senha </td>
+				<td> <img src="../img/icon04.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input class="field" type="password" placeholder="Senha" id="senha"> </td>
+			</tr>
+			<tr>
+				<td> Confirme sua senha </td>
+				<td> <img src="../img/icon04.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <form name="password"> <input class="field" type="password" placeholder="Confirme sua senha" id="confirmar"> </form> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <div id="msg" class="mensagem"></div> </td>
+			</tr>
+		</table>
+
+		<button class="register_button" onclick="cadastraUser()"> Criar conta </button>
+
+		<p class="estilo_go_to_login"> Já possui uma conta? Faça login! </p>
+		<button class="go_to_login_button" id="b_login" onclick="pag_login()"> Login </button>
+
+		<div class="rectangle_bottom"> </div>
+		<p class="estilo_bottom"> © 2021 Team Rocket. All Rights Reserved. </p>
+	</body>
+</html>

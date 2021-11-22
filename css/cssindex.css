@@ -1,0 +1,101 @@
+.estilo_title {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: xx-large;
+	color: #161925;
+	position: absolute;
+	top: 50px;
+	left: 745px;
+}
+
+.estilo_slogan {
+	font-family: 'Quicksand';
+	font-style: italic;
+	font-size: large;
+	color: #161925;
+	position: absolute;
+	top: 105px;
+	left: 775px;
+}
+
+.line {
+	width: 1235px;
+	height: 1px;
+	background-color: #161925;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+}
+
+.estilo_subtitle {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: x-large;
+	color: #161925;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+}
+
+.circle1 {
+	width: 250px;
+	height: 250px;
+	background-color: #141115;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 350px;
+	left: 345px;
+}
+
+.estilo_circle1 {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: large;
+	color: #FDFFFC;
+	position: absolute;
+	top: 450px;
+	left: 410px;
+}
+
+.circle2 {
+	width: 250px;
+	height: 250px;
+	background-color: #679436;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 350px;
+	left: 745px;
+}
+
+.estilo_circle2 {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: large;
+	color: #FDFFFC;
+	position: absolute;
+	top: 450px;
+	left: 790px;
+}
+
+.circle3 {
+	width: 250px;
+	height: 250px;
+	background-color: #1D2F6F;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 350px;
+	left: 1145px;
+}
+
+.estilo_circle3 {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: large;
+	color: #FDFFFC;
+	position: absolute;
+	top: 450px;
+	left: 1180px;
+}

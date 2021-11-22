@@ -1,0 +1,76 @@
+.estilo_title {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: xx-large;
+	color: #161925;
+	position: absolute;
+	top: 50px;
+	left: 745px;
+}
+
+.line {
+	width: 1235px;
+	height: 1px;
+	background-color: #161925;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+}
+
+.estilo_subtitle {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: x-large;
+	color: #161925;
+	position: absolute;
+	top: 200px;
+	left: 350px;
+}
+
+.textoContato1 {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: medium;
+	color: #FDFFFC;
+	position: absolute;
+	top: 250px;
+	left: 350px;
+}
+
+.textoContato2 {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: medium;
+	color: #161925;
+	position: absolute;
+	top: 280px;
+	left: 350px;
+}
+
+.icon-facebook {
+	position: absolute;
+	top: 265px;
+	left: 1025px;
+	cursor: pointer;
+}
+
+.icon-instagram {
+	position: absolute;
+	top: 365px;
+	left: 1025px;
+	cursor: pointer;
+}
+
+.icon-pinterest {
+	position: absolute;
+	top: 265px;
+	left: 1125px;
+	cursor: pointer;
+}
+
+.icon-twitter {
+	position: absolute;
+	top: 365px;
+	left: 1125px;
+	cursor: pointer;
+}

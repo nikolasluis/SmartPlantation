@@ -1,0 +1,73 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: #7A93AC;
+}
+
+.menu {
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.menu a {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: medium;
+	background-color: #D0CDD7;
+	color: #0B3948;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background-color: #ACB0BD;
+}
+
+.menu a.active {
+	background-color: #161925;
+	color: #FDFFFC;
+}
+
+.rectangle_middle {
+	width: 300px;
+	height: 405px;
+	background-color: #D0CDD7;
+	position: absolute;
+	bottom: 40px;
+	left: 0px;
+}
+
+.icon01_middle {
+	position: absolute;
+	bottom: 300px;
+	left: 100px;
+}
+
+.icon02_middle {
+	position: absolute;
+	bottom: 150px;
+	left: 100px;
+}
+
+.rectangle_bottom {
+	width: 1535px;
+	height: 40px;
+	background-color: #161925;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.estilo_bottom {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: small;
+	color: #FDFFFC;
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+}

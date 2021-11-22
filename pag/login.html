@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<script type="text/javascript" src="../js/jslogin.js"> </script>
+		<link rel="stylesheet" type="text/css" href="../css/cssallpages.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="../css/csslogin.css" media="screen"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+		<link rel="icon" href="../img/favicon01.png"/>
+		<title> Login </title>
+	</head>
+
+	<body>
+		<div class="menu">
+			<a href="../index.html"> Home - Smart Plantation </a>
+			<a href="#" class="active"> Login </a>
+			<a href="contato.html"> Contato </a>
+			<a href="cadastro.html"> Cadastro </a>
+			<a href="registro-sensor.html"> Registro de Sensor </a>
+			<a href="edite-sensores.html"> Verificar Sensores </a>
+			<a href="perguntas-frequentes.html"> Perguntas Frequentes </a>
+		</div>
+
+		<p class="estilo_title"> Login </p>
+
+		<div class="rectangle_middle"> </div>
+		<img class="icon01_middle" src="../img/icon01.png">
+		<img class="icon02_middle" src="../img/icon02.png">
+
+		<table cellpadding="20" class="table">
+			<tr>
+				<td width="25%"> E-mail </td>
+				<td> <img src="../img/icon03.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <form name="usuario_login"> <input class="field" type="text" placeholder="E-mail" id="mailLogin"> </form> </td>
+			</tr>
+			<tr>
+				<td> Senha </td>
+				<td> <img src="../img/icon04.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <form name="usuario_senha"> <input class="field" type="password" placeholder="Senha" id="senhaLogin"> </form> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <div id="msg" class="mensagem"> </div> </td>
+			</tr>
+		</table>
+
+		<p class="estilo_create_acc"> Ainda não possui uma conta? Crie agora! </p>
+
+		<button class="login_button" onclick="validaLogin()"> Login </button>
+		<button class="create_acc_button" id="b_cadastro" onclick="pag_cadastro()"> Criar conta </button>
+
+		<div class="rectangle_bottom"> </div>
+		<p class="estilo_bottom"> © 2021 Team Rocket. All Rights Reserved. </p>
+	</body>
+</html>
